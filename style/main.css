@@ -1,0 +1,315 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  max-width: 1920px;
+  width: 100%;
+}
+
+h1,h2,h3,h4 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header, footer {
+  background-color: #6B6B6B;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  height: 100px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20%;
+}
+
+.navbar nav a {
+  color: #EBEBEB;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navbar nav a:hover {
+  color: white;
+}
+
+.first1 {
+  background-color: #EBEBEB;
+}
+
+.first_left-wing h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.first_left-wing p {
+  padding: 5% 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.first_left-wing {
+  width: 65%;
+}
+
+.first_left-wing button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  background-color: white;
+  width: 30em;
+  height: 3em;
+}
+
+.second_left-wing {
+  width: 24em;
+}
+
+.specail_grade-p {
+  display: flex;
+  text-align: center;
+  width: 24em;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  opacity: 50%;
+}
+
+.img_wrapper {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.first1 {
+  display: flex;
+  justify-content: center;
+  padding: 2% 13% 4% 13%;
+}
+
+.first1 .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_left-wing_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.second2 .container {
+  display: flex;
+  align-items: center;
+  height: 152px;
+  background-color: #D3D3D3;
+  padding: 0 10%;
+}
+
+.section_2-wrapper {
+  display: flex;
+  gap: 18%;
+}
+
+.third3 {
+  padding: 5% 0;
+}
+
+.third_3_wrapper {
+  padding: 0 5% ;
+  display: flex;
+}
+
+.third_3_left_wing-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.third_3_left_wing h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+}
+
+.third_3_left_wing p {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  padding-top: 10px;
+  width: 35em;
+}
+
+.second_special {
+  display: flex;
+  justify-content: center;
+}
+
+.third3_2-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.third3_2-left_wing {
+  padding: 2% 10%;
+}
+
+.third_img_wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5% 5% 3% 15%;
+}
+
+.third3_2_wrapper {
+  display: flex;
+}
+
+.fourth4 {
+  background-color: #EBEBEB;
+}
+
+.fourth4 .container {
+  padding: 5% 10%;
+}
+
+.tip_wrapper div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.special_special {
+  width: 25em;
+}
+
+.tip_wrapper h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+}
+
+.p p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  padding: 12px 0 40px 0;
+}
+
+.tip_wrapper img {
+  padding-bottom: 20px;
+}
+
+.fourth4_steps_wrap {
+  padding-top: 5%;
+}
+
+.steps_digits {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step_digit {
+  padding: 3%;
+  width: 30em;
+  height: 25em;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.step_digit div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step_digit img {
+  padding: 45px 0;
+}
+
+.step_digit h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.step_digit span {
+  background-color: rgba(59, 121, 195, 1);
+  border-radius: 5px;
+  color: white;
+}
+
+.light_italic {
+  font-weight: 300;
+  font-style: italic;
+  color: black;
+  background-color: none;
+}
+
+.fifth5 .container {
+  padding: 2% 10%;
+}
+
+.tips_digits {
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tips_digit h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  padding: 30px;
+}
+
+.tips_digit p {
+  width: 18em;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+
+.Inc {
+  height: 50px;
+  width: 100%;
+  background-color: #111;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+}
+
+.Inc p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #777;
+}
